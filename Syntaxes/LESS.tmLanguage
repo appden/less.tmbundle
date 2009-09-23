@@ -22,6 +22,14 @@
 			<key>include</key>
 			<string>source.css</string>
 		</dict>
+		<dict>
+			<key>begin</key>
+			<string>//</string>
+			<key>end</key>
+			<string>$\n?</string>
+			<key>name</key>
+			<string>comment.line.double-slash</string>
+		</dict>
 	</array>
 	<key>scopeName</key>
 	<string>source.css.less</string>

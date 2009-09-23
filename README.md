@@ -16,7 +16,7 @@ Runs `lessc` on the current file, saving to the same file name with a .css exten
 Language Grammar
 ----------------
 
-I haven't added any LESS-specific grammars yet, if you'd like to do so, please fork and send a pull request.
+Not all LESS-specific grammars are added yet, if you'd like to do so, please fork and send a pull request.
 
 Licenses
 --------
