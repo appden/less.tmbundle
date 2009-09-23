@@ -12,6 +12,7 @@ Save to CSS (⌘S)
 ----------------
 
 Runs `lessc` on the current file, saving to the same file name with a .css extension (e.g. style.less => style.css).
+When there is `lessc: somefile.less` somewhere in the current file, that file is compiled instead.
 
 Language Grammar
 ----------------
