@@ -11,7 +11,7 @@ system("lessc \"#{file}\"")</string>
 	<key>input</key>
 	<string>document</string>
 	<key>keyEquivalent</key>
-	<string>@s</string>
+	<string>@b</string>
 	<key>name</key>
 	<string>Save to CSS</string>
 	<key>output</key>
