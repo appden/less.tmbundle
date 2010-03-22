@@ -4,6 +4,10 @@ This bundle adds CSS syntax highlighting to `.less` files with the ability to co
 
 This bundle was forked from `appden/less.tmbundle` but has since been rewritten from scratch (the language syntax).
 
+[`sample.sass`](http://github.com/rsms/less.tmbundle/blob/master/sample.less):
+
+<img src="http://github.com/rsms/less.tmbundle/raw/master/sample.png" width="600" height="465" />
+
 ## Compiling to CSS (⌘B)
 
 Runs `lessc` on the current file, saving to the same file name with a .css extension (e.g. style.less => style.css). When there is `lessc: somefile.less` somewhere in the current file, that file is compiled instead.
