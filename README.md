@@ -1,4 +1,4 @@
-# LESS TextMate Bundle
+# LESS TextMate bundle
 
 This bundle adds CSS syntax highlighting to `.less` files with the ability to compile to `.css` files (⌘B). To learn more about [LESS][], see the [docs](http://lesscss.org/docs.html).
 
