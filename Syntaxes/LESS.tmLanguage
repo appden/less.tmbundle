@@ -30,6 +30,38 @@
 			<key>name</key>
 			<string>comment.line.double-slash</string>
 		</dict>
+		<dict>
+			<key>begin</key>
+			<string>//</string>
+			<key>end</key>
+			<string>$\n?</string>
+			<key>name</key>
+			<string>entity.name.function.less</string>
+		</dict>
+		<dict>
+			<key>captures</key>
+			<dict>
+				<key>1</key>
+				<dict>
+					<key>name</key>
+					<string>storage.other.readwrite.less</string>
+				</dict>
+			</dict>
+			<key>match</key>
+			<string>^\s*(@[a-zA-Z_-][\w-]*)\s*:</string>
+		</dict>
+		<dict>
+			<key>captures</key>
+			<dict>
+				<key>1</key>
+				<dict>
+					<key>name</key>
+					<string>variable.other.readwrite.less</string>
+				</dict>
+			</dict>
+			<key>match</key>
+			<string>(@[a-zA-Z_-][\w-]*)\s*[^{:]*$</string>
+		</dict>
 	</array>
 	<key>scopeName</key>
 	<string>source.css.less</string>
