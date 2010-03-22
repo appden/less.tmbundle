@@ -1,29 +1,22 @@
-LESS TextMate Bundle
-====================
+# LESS TextMate Bundle
 
-This bundle adds CSS syntax highlighting to .less files and parses them to .css files on save (⌘S).  To learn more about [LESS][], see the [docs](http://lesscss.org/docs.html).
+This bundle adds CSS syntax highlighting to `.less` files with the ability to compile to `.css` files (⌘B). To learn more about [LESS][], see the [docs](http://lesscss.org/docs.html).
 
-Requirements
-------------
+This bundle was forked from `appden/less.tmbundle` but has since been rewritten from scratch (the language syntax).
 
-`sudo gem install less`
+## Compiling to CSS (⌘B)
 
-Save to CSS (⌘S)
-----------------
+Runs `lessc` on the current file, saving to the same file name with a .css extension (e.g. style.less => style.css). When there is `lessc: somefile.less` somewhere in the current file, that file is compiled instead.
 
-Runs `lessc` on the current file, saving to the same file name with a .css extension (e.g. style.less => style.css).
-When there is `lessc: somefile.less` somewhere in the current file, that file is compiled instead.
+Compiling requires some version of `lessc` to be in your `PATH`.
 
-Language Grammar
-----------------
+## Authors
 
-Not all LESS-specific grammars are added yet, if you'd like to do so, please fork and send a pull request.
+* Rasmus Andersson <http://hunch.se/> rsms@github
+* Scott Kyle <http://appden.com/> appden@github
 
-Licenses
---------
+## License
 
 * This bundle is open source under an MIT-style license
-* [LESS][] is open source under the Apache license
-
 
 [LESS]: http://lesscss.org
