@@ -4,7 +4,7 @@ Syntax highlighting for `.less` files. To learn more about [LESS][], see <http:/
 
 This bundle was forked from `appden/less.tmbundle` but has since been rewritten from scratch (the language syntax).
 
-[`sample.sass`](http://github.com/rsms/less.tmbundle/blob/master/sample.less):
+[`sample.less`](http://github.com/rsms/less.tmbundle/blob/master/sample.less):
 
 <img src="http://github.com/rsms/less.tmbundle/raw/master/sample.png" width="600" height="465" />
 
