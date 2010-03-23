@@ -1,6 +1,6 @@
 # LESS TextMate bundle
 
-This bundle adds CSS syntax highlighting to `.less` files with the ability to compile to `.css` files (⌘B). To learn more about [LESS][], see the [docs](http://lesscss.org/docs.html).
+Syntax highlighting for `.less` files. To learn more about [LESS][], see <http://lesscss.org/docs.html>.
 
 This bundle was forked from `appden/less.tmbundle` but has since been rewritten from scratch (the language syntax).
 
