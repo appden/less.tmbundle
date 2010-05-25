@@ -7,11 +7,11 @@
 	<key>command</key>
 	<string>#!/usr/bin/env ruby
 file = STDIN.read[/lessc: ([^*]+\.less)/, 1] || ENV["TM_FILEPATH"]
-system("lessc \"#{file}\"")</string>
+system("lessc --verbose \"#{file}\"")</string>
 	<key>input</key>
 	<string>document</string>
 	<key>keyEquivalent</key>
-	<string>@b</string>
+	<string>@s</string>
 	<key>name</key>
 	<string>Save to CSS</string>
 	<key>output</key>
