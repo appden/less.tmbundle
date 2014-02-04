@@ -10,6 +10,14 @@ This bundle was forked from `appden/less.tmbundle` but has since been rewritten 
 
 <small>Rendered in the ["Hunch Dark dimmed" theme](http://github.com/rsms/workenv/blob/master/textmate/Hunch-Dark-dimmed.tmTheme)</small>
 
+## Installation
+
+Copy and paste this line into your shell:
+
+```
+git clone https://github.com/appden/less.tmbundle.git ~/Library/Application\ Support/TextMate/Bundles/less.tmbundle
+```
+
 ## Compiling to CSS (⌘B)
 
 Runs `lessc` on the current file, saving to the same file name with a .css extension (e.g. style.less => style.css). When there is `lessc: somefile.less` somewhere in the current file, that file is compiled instead.
