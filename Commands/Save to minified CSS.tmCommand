@@ -7,18 +7,16 @@
 	<key>command</key>
 	<string>#!/usr/bin/env ruby
 file = STDIN.read[/lessc: ([^*])+\.less/, 1] || ENV["TM_FILEPATH"].chomp(File.extname(ENV["TM_FILEPATH"]))
-system("lessc --verbose \"#{file}.less\" \"#{file}.css\"")</string>
+system("lessc -x --verbose \"#{file}.less\" \"#{file}.css\"")</string>
 	<key>input</key>
 	<string>document</string>
-	<key>keyEquivalent</key>
-	<string>@s</string>
 	<key>name</key>
-	<string>Save to CSS</string>
+	<string>Save to minified CSS</string>
 	<key>output</key>
 	<string>showAsTooltip</string>
 	<key>scope</key>
 	<string>source.css.less</string>
 	<key>uuid</key>
-	<string>78788223-5E5E-434E-98BE-17BCDF600611</string>
+	<string>448D3A8D-260E-4949-BA33-654886ECDCAF</string>
 </dict>
 </plist>
